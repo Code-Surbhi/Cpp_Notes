@@ -11,6 +11,16 @@ int main(){
    int Arr3[2][3] ={2,5};
    int SumArray[2][3];
 
+    // Display the elements of 2D array using for each loop
+    /*
+        for(auto& x:Arr){
+            for(auto& y:x){
+                cout<<y<<" ";
+            }
+            cout<<endl;
+        }
+    */
+
    cout<<"Matrix A = "<<endl;
    for(int i=0; i<2 ;i++){
     for(int j=0;j<3;j++){
